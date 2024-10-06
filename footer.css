@@ -1,0 +1,115 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: 'HSJiptokki-Round';
+  src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/HSJiptokki-Round.woff2') format('woff2');
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Paperlogy-8ExtraBold';
+  src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2408-3@1.0/Paperlogy-8ExtraBold.woff2') format('woff2');
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SUIT-Regular';
+  src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_suit@1.0/SUIT-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  margin: 0 auto;
+  padding: 0;
+}
+
+/* 전체 너비 */
+#wrap {
+  width: 100%;
+  max-width: 1920px;
+}
+
+/* a태그 li태그 전체 적용 */
+a {
+  text-decoration: none;
+  font-family: 'Paperlogy-8ExtraBold';
+  font-weight: bold;
+}
+
+li {
+  list-style: none;
+}
+
+
+/* 푸터 영역 */
+
+footer {
+  display: block;
+  margin: 0;
+  padding: 0
+}
+
+#footer {
+  padding: 45px 0;
+  /* background: #fafafa; */
+  /* border-top: 1px solid #e2e2e2; */
+  margin-top: 65px;
+}
+
+
+#footer .inner .head .etc a {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 14px;
+  color: #ffffff;
+  line-height: 14px;
+}
+
+#footer .inner .head .etc a+a {
+  margin-left: 26px;
+  padding-left: 27px;
+  border-left: 1px solid #bdbdbd;
+}
+
+#footer .inner .body {
+  clear: both;
+  position: relative;
+  font-size: 12px;
+  line-height: 1.6;
+  color: #ffffff;
+}
+
+#footer .inner .body .addr {
+  margin-bottom: 10px;
+  margin-left: 180px;
+}
+
+#footer.partner-type .head .etc {
+  margin-right: 180px;
+  float: none;
+  padding: 0;
+  position: absolute;
+  right: 0;
+  left: 0;
+  text-align: right;
+  top: 0;
+  z-index: 1;
+}
+
+#footer {
+  padding: 33px 0 50px;
+  position: relative;
+}
+
+#footer .inner .head {
+  padding-top: 50px;
+  position: relative;
+}
+
+
+#footer.partner-type .head {
+  padding-top: 30px;
+}
