@@ -1,0 +1,80 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'HSJiptokki-Round';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/HSJiptokki-Round.woff2') format('woff2');
+    font-weight: 800;
+    font-style: normal;
+}
+@font-face {
+  font-family: 'Paperlogy-8ExtraBold';
+  src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2408-3@1.0/Paperlogy-8ExtraBold.woff2') format('woff2');
+  font-weight: 800;
+  font-style: normal;
+}
+
+body {
+	background-color: #111111;
+}
+.container {
+	background-color: #fff;
+	padding: 50px;
+	border-radius: 8px;
+	box-shadow: 3px 3px 10px rgba(255, 255, 255, 0.5);
+	width: 400px;
+	margin: 50px auto;
+	
+}
+#title {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	font-size: 25px;
+	text-align: center;
+	font-family: 'Paperlogy-8ExtraBold';
+	color: #ffffff;
+}
+h2 {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	font-size: 25px;
+	text-align: center;
+	font-family: 'Paperlogy-8ExtraBold';
+	color : #000000;
+
+}
+#btn {
+    display: flex;
+    justify-content: center; /* 수직 중앙 정렬 */
+    align-items: center; /* 수평 중앙 정렬 */
+
+}
+#submit {
+    margin-top: 50px;
+    padding: 15px 40px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #000000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#submit:hover {
+    background-color: #555555;
+}
+.message {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 30px;
+    color: #000000; /* 성공 메시지 색상 */
+}
+.error-message {
+	text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 30px;
+    color: red; /* 오류 메시지 색상 */
+}

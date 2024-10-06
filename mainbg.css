@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'HSJiptokki-Round';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/HSJiptokki-Round.woff2') format('woff2');
+    font-weight: 800;
+    font-style: normal;
+}
+* {
+  margin: 0 auto;
+  padding: 0;
+}
+
+body {
+    margin: 0 auto;
+    padding: 0;
+    background-image: url('../2PROJECT/IMAGE/homebg.jpg');
+    background-size: cover; /* 이미지 크기를 조정하여 전체 화면에 맞추기 */
+    background-position: center; /* 이미지 위치를 중앙으로 설정 */
+    background-repeat: no-repeat; /* 이미지 반복을 방지 */
+}
+
+
+
+
